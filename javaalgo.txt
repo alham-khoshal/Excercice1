@@ -1,0 +1,113 @@
+2.1
+val=231
+double=val*2
+ecrire val=231
+ecrire double=462
+2.2
+lire val
+ecrire=val*2
+2.3
+si le prix=<30
+ttc=prix+tva
+3.6
+let age=0;
+age= prompt("quel est votre age");
+if (age == 6 || age == 7)  {
+  console.log("votre catégorie poussin");
+}
+ else if (age == 8 || age == 9)  {
+  console.log("votre catégorie pupille");
+}
+else if (age == 10 || age == 11)  {
+  console.log("votre catégorie minime");
+
+ }else if (age >=12 )  {
+  console.log("votre catégorie cadet");
+}
+  else   {
+  console.log("votre catégorie unknwon");
+ }
+4.1
+let tutu=4;
+let toto=0;
+let tata="ok";
+tutu= prompt("tutu");
+if (tutu<=toto+4) {
+console.log(tutu=tutu+1);
+}
+else   {  console.log(tutu=tutu-1);
+ }
+4.2
+let h=0;
+let m=0;
+m=prompt("minutes");
+h=prompt("heures");
+if (m=60)
+console.log(h+1 "h"|| m==0 );
+else if(h=24);
+console.log(h=0);
+4.5
+let h=0;
+let m=0;
+let a=0;
+let femme=1;
+let homme=0;
+h=prompt("hommes femmes");
+if (h==0){
+     m=prompt("age");
+} if (m>=20)
+  console.log("oui")
+else if (h==1){
+  a=prompt("age");
+} if (a>=18 || a<=35)
+  console.log("oui")
+else if (a=>36)
+console.log("non")
+4.5
+let h=0;
+let m=0;
+let a=0;
+h=prompt("hommes femmes");
+if (h=="homme"){
+     m=prompt("age");
+} if (m>=20){
+  console.log("oui");
+}else if (m<=19)
+console.log("non");
+else if (h=="femme"){
+  a=prompt("age");
+} if (a>=18 && a<=35){
+  console.log("oui");
+}else if (a<=17 && a>36)
+console.log("non");
+2.3
+let lit=0;
+let ht=40;
+let ttc=3.50;
+let tva=4.50;
+lit=prompt("combien de lit vous voulez");
+if (lit>=1 && lit<=50){
+console.log(lit*tva+lit*ht);
+}else if (lit>=50)
+console.log(lit*ht+lit*ttc);
+5.1
+let a=0;
+a=prompt("quel est le nombre");
+while (a<1||a>5){
+  a=prompt("quel est le nombre");
+}
+console.log("bravo vous avez trouve le bon nombre")
+5.2
+let a=0;
+a=prompt("quel est le nombre");
+if (a>=10 && a<=20){
+}else if(a<20){
+  a=prompt("« Plus grand ! » ");
+  if (a>=10 && a<=20){
+}
+}else if(a>10)
+  a=prompt("« Plus petit ! » ");
+if (a>=10 && a<=20){
+}
+console.log("bravo vous avez trouve le bon nombre");
+
